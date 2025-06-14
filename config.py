@@ -7,8 +7,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID = os.environ.get("API_ID", "21868557")  # ⚠️ Required
-    API_HASH = os.environ.get("API_HASH", "91668a524679e0f0aa79faca1bdb1ca1")  # ⚠️ Required
+    API_ID = os.environ.get("API_ID", "")  # ⚠️ Required
+    API_HASH = os.environ.get("API_HASH", "")  # ⚠️ Required
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7732017947:AAF6VuNJ_DwukKOxgFhY4pOefL_PYycPlTE")  # ⚠️ Required
 
     # premium 4g renaming client
